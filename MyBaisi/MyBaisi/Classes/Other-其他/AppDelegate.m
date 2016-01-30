@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  MyBaisi
 //
-//  Created by mac  on 16/1/31.
-//  Copyright © 2016年 fccoder. All rights reserved.
+//  Created by mac  on 16/1/27.
+//  Copyright © 2016年 GFC. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FCTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 创建窗口
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    // 设置跟控制器
+    self.window.rootViewController = [[FCTabBarController alloc]init];
+    
+    // 显示窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

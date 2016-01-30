@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BB7B6F1C5D170400824990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7B6E1C5D170400824990 /* main.m */; };
-		04BB7B721C5D170400824990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7B711C5D170400824990 /* AppDelegate.m */; };
-		04BB7B751C5D170400824990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7B741C5D170400824990 /* ViewController.m */; };
-		04BB7B781C5D170400824990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BB7B761C5D170400824990 /* Main.storyboard */; };
 		04BB7B7A1C5D170400824990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BB7B791C5D170400824990 /* Assets.xcassets */; };
-		04BB7B7D1C5D170400824990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BB7B7B1C5D170400824990 /* LaunchScreen.storyboard */; };
+		04BB7BF01C5D259200824990 /* FCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BC51C5D259200824990 /* FCEssenceViewController.m */; };
+		04BB7BF11C5D259200824990 /* FCFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BCB1C5D259200824990 /* FCFriendTrendsViewController.m */; };
+		04BB7BF21C5D259200824990 /* FCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BD11C5D259200824990 /* FCMeViewController.m */; };
+		04BB7BF31C5D259200824990 /* FCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BD71C5D259200824990 /* FCNewViewController.m */; };
+		04BB7BF41C5D259200824990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BDC1C5D259200824990 /* AppDelegate.m */; };
+		04BB7BF51C5D259200824990 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BDF1C5D259200824990 /* UIBarButtonItem+Extension.m */; };
+		04BB7BF61C5D259200824990 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BE11C5D259200824990 /* UIView+Extension.m */; };
+		04BB7BF71C5D259200824990 /* FCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BE41C5D259200824990 /* FCNavigationController.m */; };
+		04BB7BF81C5D259200824990 /* FCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BE61C5D259200824990 /* FCTabBarController.m */; };
+		04BB7BF91C5D259200824990 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BE71C5D259200824990 /* Foundation+Log.m */; };
+		04BB7BFA1C5D259200824990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BE81C5D259200824990 /* main.m */; };
+		04BB7BFB1C5D259200824990 /* FCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BB7BEC1C5D259200824990 /* FCTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04BB7B6A1C5D170400824990 /* MyBaisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBaisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BB7B6E1C5D170400824990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04BB7B701C5D170400824990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04BB7B711C5D170400824990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04BB7B731C5D170400824990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04BB7B741C5D170400824990 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04BB7B771C5D170400824990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BB7B791C5D170400824990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04BB7B7C1C5D170400824990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BB7B7E1C5D170400824990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BB7BC41C5D259200824990 /* FCEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCEssenceViewController.h; sourceTree = "<group>"; };
+		04BB7BC51C5D259200824990 /* FCEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCEssenceViewController.m; sourceTree = "<group>"; };
+		04BB7BCA1C5D259200824990 /* FCFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFriendTrendsViewController.h; sourceTree = "<group>"; };
+		04BB7BCB1C5D259200824990 /* FCFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFriendTrendsViewController.m; sourceTree = "<group>"; };
+		04BB7BD01C5D259200824990 /* FCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCMeViewController.h; sourceTree = "<group>"; };
+		04BB7BD11C5D259200824990 /* FCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCMeViewController.m; sourceTree = "<group>"; };
+		04BB7BD61C5D259200824990 /* FCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCNewViewController.h; sourceTree = "<group>"; };
+		04BB7BD71C5D259200824990 /* FCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCNewViewController.m; sourceTree = "<group>"; };
+		04BB7BDB1C5D259200824990 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BB7BDC1C5D259200824990 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BB7BDE1C5D259200824990 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		04BB7BDF1C5D259200824990 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		04BB7BE01C5D259200824990 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		04BB7BE11C5D259200824990 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		04BB7BE31C5D259200824990 /* FCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCNavigationController.h; sourceTree = "<group>"; };
+		04BB7BE41C5D259200824990 /* FCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCNavigationController.m; sourceTree = "<group>"; };
+		04BB7BE51C5D259200824990 /* FCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTabBarController.h; sourceTree = "<group>"; };
+		04BB7BE61C5D259200824990 /* FCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCTabBarController.m; sourceTree = "<group>"; };
+		04BB7BE71C5D259200824990 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		04BB7BE81C5D259200824990 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BB7BE91C5D259200824990 /* MyBaisi.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBaisi.pch; sourceTree = "<group>"; };
+		04BB7BEB1C5D259200824990 /* FCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTabBar.h; sourceTree = "<group>"; };
+		04BB7BEC1C5D259200824990 /* FCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +81,7 @@
 		04BB7B6C1C5D170400824990 /* MyBaisi */ = {
 			isa = PBXGroup;
 			children = (
-				04BB7B701C5D170400824990 /* AppDelegate.h */,
-				04BB7B711C5D170400824990 /* AppDelegate.m */,
-				04BB7B731C5D170400824990 /* ViewController.h */,
-				04BB7B741C5D170400824990 /* ViewController.m */,
-				04BB7B761C5D170400824990 /* Main.storyboard */,
-				04BB7B791C5D170400824990 /* Assets.xcassets */,
-				04BB7B7B1C5D170400824990 /* LaunchScreen.storyboard */,
-				04BB7B7E1C5D170400824990 /* Info.plist */,
+				04BB7BC11C5D259200824990 /* Classes */,
 				04BB7B6D1C5D170400824990 /* Supporting Files */,
 			);
 			path = MyBaisi;
@@ -74,9 +90,224 @@
 		04BB7B6D1C5D170400824990 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04BB7B6E1C5D170400824990 /* main.m */,
+				04BB7B791C5D170400824990 /* Assets.xcassets */,
+				04BB7B7E1C5D170400824990 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BB7BC11C5D259200824990 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BC21C5D259200824990 /* Essence-精华 */,
+				04BB7BC81C5D259200824990 /* FriendTrends-关注 */,
+				04BB7BCE1C5D259200824990 /* Me-我 */,
+				04BB7BD41C5D259200824990 /* New-新帖 */,
+				04BB7BDA1C5D259200824990 /* Other-其他 */,
+				04BB7BED1C5D259200824990 /* Publish-发布 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04BB7BC21C5D259200824990 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BC31C5D259200824990 /* Controller */,
+				04BB7BC61C5D259200824990 /* Model */,
+				04BB7BC71C5D259200824990 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		04BB7BC31C5D259200824990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BC41C5D259200824990 /* FCEssenceViewController.h */,
+				04BB7BC51C5D259200824990 /* FCEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BB7BC61C5D259200824990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BB7BC71C5D259200824990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BB7BC81C5D259200824990 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BC91C5D259200824990 /* Controller */,
+				04BB7BCC1C5D259200824990 /* Model */,
+				04BB7BCD1C5D259200824990 /* View */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		04BB7BC91C5D259200824990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BCA1C5D259200824990 /* FCFriendTrendsViewController.h */,
+				04BB7BCB1C5D259200824990 /* FCFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BB7BCC1C5D259200824990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BB7BCD1C5D259200824990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BB7BCE1C5D259200824990 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BCF1C5D259200824990 /* Controller */,
+				04BB7BD21C5D259200824990 /* Model */,
+				04BB7BD31C5D259200824990 /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		04BB7BCF1C5D259200824990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BD01C5D259200824990 /* FCMeViewController.h */,
+				04BB7BD11C5D259200824990 /* FCMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BB7BD21C5D259200824990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BB7BD31C5D259200824990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BB7BD41C5D259200824990 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BD51C5D259200824990 /* Controller */,
+				04BB7BD81C5D259200824990 /* Model */,
+				04BB7BD91C5D259200824990 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		04BB7BD51C5D259200824990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BD61C5D259200824990 /* FCNewViewController.h */,
+				04BB7BD71C5D259200824990 /* FCNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BB7BD81C5D259200824990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BB7BD91C5D259200824990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BB7BDA1C5D259200824990 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BDB1C5D259200824990 /* AppDelegate.h */,
+				04BB7BDC1C5D259200824990 /* AppDelegate.m */,
+				04BB7BDD1C5D259200824990 /* Category */,
+				04BB7BE21C5D259200824990 /* Controller */,
+				04BB7BE71C5D259200824990 /* Foundation+Log.m */,
+				04BB7BE81C5D259200824990 /* main.m */,
+				04BB7BE91C5D259200824990 /* MyBaisi.pch */,
+				04BB7BEA1C5D259200824990 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		04BB7BDD1C5D259200824990 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BDE1C5D259200824990 /* UIBarButtonItem+Extension.h */,
+				04BB7BDF1C5D259200824990 /* UIBarButtonItem+Extension.m */,
+				04BB7BE01C5D259200824990 /* UIView+Extension.h */,
+				04BB7BE11C5D259200824990 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04BB7BE21C5D259200824990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BE31C5D259200824990 /* FCNavigationController.h */,
+				04BB7BE41C5D259200824990 /* FCNavigationController.m */,
+				04BB7BE51C5D259200824990 /* FCTabBarController.h */,
+				04BB7BE61C5D259200824990 /* FCTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BB7BEA1C5D259200824990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BEB1C5D259200824990 /* FCTabBar.h */,
+				04BB7BEC1C5D259200824990 /* FCTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BB7BED1C5D259200824990 /* Publish-发布 */ = {
+			isa = PBXGroup;
+			children = (
+				04BB7BEE1C5D259200824990 /* Controller */,
+				04BB7BEF1C5D259200824990 /* View */,
+			);
+			path = "Publish-发布";
+			sourceTree = "<group>";
+		};
+		04BB7BEE1C5D259200824990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BB7BEF1C5D259200824990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BB7B7D1C5D170400824990 /* LaunchScreen.storyboard in Resources */,
 				04BB7B7A1C5D170400824990 /* Assets.xcassets in Resources */,
-				04BB7B781C5D170400824990 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +378,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BB7B751C5D170400824990 /* ViewController.m in Sources */,
-				04BB7B721C5D170400824990 /* AppDelegate.m in Sources */,
-				04BB7B6F1C5D170400824990 /* main.m in Sources */,
+				04BB7BF61C5D259200824990 /* UIView+Extension.m in Sources */,
+				04BB7BF71C5D259200824990 /* FCNavigationController.m in Sources */,
+				04BB7BF31C5D259200824990 /* FCNewViewController.m in Sources */,
+				04BB7BFB1C5D259200824990 /* FCTabBar.m in Sources */,
+				04BB7BF81C5D259200824990 /* FCTabBarController.m in Sources */,
+				04BB7BF21C5D259200824990 /* FCMeViewController.m in Sources */,
+				04BB7BF41C5D259200824990 /* AppDelegate.m in Sources */,
+				04BB7BF01C5D259200824990 /* FCEssenceViewController.m in Sources */,
+				04BB7BF51C5D259200824990 /* UIBarButtonItem+Extension.m in Sources */,
+				04BB7BF91C5D259200824990 /* Foundation+Log.m in Sources */,
+				04BB7BF11C5D259200824990 /* FCFriendTrendsViewController.m in Sources */,
+				04BB7BFA1C5D259200824990 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		04BB7B761C5D170400824990 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04BB7B771C5D170400824990 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04BB7B7B1C5D170400824990 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04BB7B7C1C5D170400824990 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04BB7B7F1C5D170400824990 /* Debug */ = {
@@ -261,6 +480,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "MyBaisi/Classes/Other-其他/MyBaisi.pch";
 				INFOPLIST_FILE = MyBaisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganfuchuan.MyBaisi;
@@ -272,6 +493,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "MyBaisi/Classes/Other-其他/MyBaisi.pch";
 				INFOPLIST_FILE = MyBaisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganfuchuan.MyBaisi;
@@ -298,6 +521,7 @@
 				04BB7B831C5D170400824990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,27 @@
+//
+//  MyBaisi.pch
+//  MyBaisi
+//
+//  Created by mac  on 16/1/27.
+//  Copyright © 2016年 GFC. All rights reserved.
+//
+
+#ifndef MyBaisi_pch
+#define MyBaisi_pch
+
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+
+#ifdef DEBUG
+#define FXLog(...) NSLog(__VA_ARGS__)
+#else
+#define FCLog(...)
+#endif
+
+#define FCLogFunc FCLog(@"%s", __func__)
+
+#define FCRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define FCGlobaBg FCRGBColor(223, 223, 223)
+#define FCRandomColor FCRGBColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+
+#endif /* MyBaisi_pch */
